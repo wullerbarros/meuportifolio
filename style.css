@@ -1,4 +1,4 @@
-/* Tema escuro com detalhes em laranja */
+
 body.dark-theme {
     background-color: #121212;
     color: #f0f0f0;
@@ -27,7 +27,7 @@ header.site-header {
 }
 
 h2 {
-    text-align: center; /* Centraliza somente o título h2 */
+    text-align: center; 
 }
 h2 {
     color: white;
@@ -80,13 +80,13 @@ h2 {
 }
 
 .form-group label {
-    font-weight: bold;         /* Negrito */
-    display: block;            /* Faz o label ocupar a linha inteira */
-    margin-bottom: 4px;        /* Espaço entre o label e o input */
+    font-weight: bold;         
+    display: block;           
+    margin-bottom: 4px;        
 }
 
 .form-group {
-    margin-bottom: 16px;       /* Espaço entre os grupos */
+    margin-bottom: 16px;      
 }
 
 
@@ -128,7 +128,7 @@ input, textarea {
     transform: scale(1.1);
 }
 
-/* Depoimentos */
+
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -158,7 +158,7 @@ input, textarea {
     margin-bottom: 15px;
 }
 
-/* Galeria */
+
 .slideshow-container {
     overflow: hidden;
     position: relative;
@@ -175,15 +175,15 @@ input, textarea {
     border-radius: 8px;
 }
 
-/* Barras de aprendizado */
+
 .learning-progress .progress-item p {
-    color: white;            /* Cor branca */
-    font-weight: bold;       /* Negrito */
-    margin-bottom: 6px;      /* Espaço entre o nome e a barra */
+    color: white;            
+    font-weight: bold;      
+    margin-bottom: 6px;      
 }
 
 .learning-progress .progress-bar {
-    background-color: #444;  /* Fundo da barra */
+    background-color: #444;  
     border-radius: 5px;
     height: 20px;
     overflow: hidden;
@@ -191,7 +191,7 @@ input, textarea {
 }
 
 .learning-progress .progress-fill {
-    background-color: orange;  /* Cor de preenchimento da barra */
+    background-color: orange; 
     height: 100%;
     border-radius: 5px;
 }
@@ -199,16 +199,16 @@ input, textarea {
 .learning-progress .progress-value {
     color: white;
     font-weight: bold;
-    margin-top: 8px; /* Espaço entre a barra e a porcentagem */
-    display: block;  /* Garante que fique embaixo da barra */
+    margin-top: 8px; 
+    display: block;  
     text-align: center;
 }
 
 /* Comentário */
 
 .comment-form h2 {
-    color: white;        /* Deixa o título branco */
-    text-align: center;  /* (Opcional) Centraliza o título */
+    color: white;        
+    text-align: center;  
     margin-bottom: 20px;
 }
 
@@ -230,22 +230,22 @@ input, textarea {
     font-weight: bold;
     display: block;
     margin-bottom: 6px;
-    color: white; /* se estiver em tema escuro */
+    color: white;
 }
 
 .comment-form input,
 .comment-form textarea {
-    width: 100%;           /* Alinha com a largura máxima definida */
+    width: 100%;           
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #222; /* se quiser manter tema escuro */
-    color: white;           /* texto branco no tema escuro */
+    background-color: #222; 
+    color: white;          
 }
 
 .submit-button {
     display: block;
-    margin: 20px auto 0 auto;  /* Centraliza o botão */
+    margin: 20px auto 0 auto;  
     padding: 10px 20px;
     background-color: orange;
     color: white;
@@ -256,25 +256,24 @@ input, textarea {
 }
 
 .submit-button:hover {
-    background-color: #ff8800; /* efeito hover opcional */
-}
+    background-color: #ff8800; 
 .site-footer {
-    background-color: #111;     /* cor de fundo escura, se desejar */
-    color: white;               /* cor do texto */
+    background-color: #111;     
+    color: white;               
     padding: 20px 0;
-    text-align: center;         /* centraliza o texto */
+    text-align: center;        
     font-size: 14px;
 }
 
-/* Seção de introdução refinada */
+
 #introducao h2 {
-  margin-top: -20px; /* sobe o título */
+  margin-top: -20px; 
   margin-bottom: 10px;
   font-size: 2em;
   color: orange;
 }
 
-/* Caixa moderna com fundo escuro, borda laranja e animação */
+
 .intro-box-modern {
   background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
   border: 1px solid #ff9900aa;
@@ -317,7 +316,7 @@ input, textarea {
   box-shadow: 0 0 10px rgba(255, 127, 39, 0.4);
 }
 
-/* Ícone decorativo acima do texto */
+
 .intro-icon {
   font-size: 2em;
   color: orange;
